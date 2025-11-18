@@ -1,0 +1,348 @@
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+}
+
+/* NAVBAR */
+.navbar {
+  background: white;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.navbar a {
+  margin-left: 18px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+.navbar a:hover {
+  color: #2563eb;
+}
+
+/* FORM CONTAINER */
+.form-container {
+  max-width: 420px;
+  margin: 60px auto;
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.form-btn {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.form-btn:hover {
+  background: #1d4ed8;
+}
+
+/* STORE CARD */
+.store-grid {
+  padding: 28px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.store-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+  transition: 0.2s ease;
+}
+
+.store-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.store-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.store-card p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.store-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+.store-link:hover {
+  text-decoration: underline;
+}
+/* --- Center Loading --- */
+.center-loading {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+/* --- Wrapper --- */
+.details-wrapper {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+/* --- Store Info Card --- */
+.details-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.store-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.store-address {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.store-rating-box {
+  font-size: 20px;
+  padding: 8px 14px;
+  background: #f5f8ff;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+/* --- Ratings Section --- */
+.rating-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.no-ratings {
+  background: #fff3cd;
+  padding: 12px;
+  border-radius: 8px;
+  color: #856404;
+}
+
+/* List */
+.ratings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Rating Card */
+.rating-card {
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.rating-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.rating-user {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.rating-score {
+  font-size: 16px;
+  background: #f1f5ff;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.rating-comment {
+  font-style: italic;
+  margin: 8px 0;
+  color: #333;
+}
+
+.rating-date {
+  margin-top: 5px;
+  color: #777;
+  font-size: 12px;
+}
+.store-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Header */
+.store-header {
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+  color: white;
+  padding: 40px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  margin-bottom: 30px;
+}
+
+.store-title {
+  font-size: 34px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.store-tagline {
+  margin-top: 8px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.store-meta {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.rating-badge,
+.detail-badge {
+  background: rgba(255,255,255,0.15);
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #fff;
+  backdrop-filter: blur(4px);
+}
+
+/* Section */
+.store-section {
+  margin-top: 30px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+.store-description {
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Product Cards */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  padding: 15px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: 0.25s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.product-name {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product-price {
+  color: #4b6cb7;
+  font-weight: 700;
+}
+
+/* Review Cards */
+.review-card {
+  background: #f8f8f8;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+
+.review-user {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.review-text {
+  margin: 5px 0;
+  color: #555;
+}
+
+.rating-small {
+  background: #ffc107;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}

@@ -1,0 +1,119 @@
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+}
+
+/* NAVBAR */
+.navbar {
+  background: white;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.navbar a {
+  margin-left: 18px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+.navbar a:hover {
+  color: #2563eb;
+}
+
+/* FORM CONTAINER */
+.form-container {
+  max-width: 420px;
+  margin: 60px auto;
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.form-btn {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.form-btn:hover {
+  background: #1d4ed8;
+}
+
+/* STORE CARD */
+.store-grid {
+  padding: 28px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.store-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+  transition: 0.2s ease;
+}
+
+.store-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.store-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.store-card p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.store-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+.store-link:hover {
+  text-decoration: underline;
+}

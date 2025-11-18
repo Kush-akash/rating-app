@@ -1,0 +1,113 @@
+.store-container {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+
+.store-banner {
+  position: relative;
+  width: 100%;
+  height: 330px;
+  overflow: hidden;
+  border-radius: 0 0 20px 20px;
+}
+
+.store-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(75%);
+}
+
+.store-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.75));
+}
+
+.store-header {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: white;
+}
+
+.store-header h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.rating-box {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.rating-box span {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.store-content {
+  display: flex;
+  gap: 30px;
+  padding: 35px 40px;
+}
+
+.store-left {
+  width: 65%;
+}
+
+.store-right {
+  width: 35%;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.description {
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+.info-box {
+  background: #fafafa;
+  padding: 15px 18px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.info-box h3 {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.rate-btn,
+.map-btn {
+  background: #6a5af9;
+  color: rgb(31, 26, 26);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.rate-btn:hover,
+.map-btn:hover {
+  background: #5542f6;
+}
